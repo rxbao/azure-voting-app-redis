@@ -19,7 +19,6 @@ pipeline {
             """)
          }
       }
-      /*
       stage('Start test app') {
          steps {
             pwsh(script: """
@@ -50,6 +49,7 @@ pipeline {
             """)
          }
       }
+      */
       stage('Container Scanning') {
          parallel {
             stage('Run Anchore') {
