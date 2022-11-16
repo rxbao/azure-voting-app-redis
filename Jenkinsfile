@@ -49,7 +49,7 @@ pipeline {
             """)
          }
       }
-      */
+      /*
       stage('Container Scanning') {
          parallel {
             stage('Run Anchore') {
