@@ -17,7 +17,7 @@ pipeline {
                docker images -a
                cd ..
             """)*/
-            pwsh(script: """
+            powershell(script: """
                
                docker --version
                
