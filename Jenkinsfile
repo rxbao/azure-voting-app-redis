@@ -57,6 +57,7 @@ pipeline {
                   docker.withRegistry('https://index.docker.io/v1/', 'DockerHub') {
                      def image = docker.build('ruixiandockerid/jenkins-course:latest')
                      image.Push()
+                  }
                }
             }
          }
